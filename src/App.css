@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+.ba {
+    list-style-type: none;
+    display: flex;
+    color: white;
+
+}
+
+    .ba li {
+        cursor: pointer;
+    }
+
+.group {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
